@@ -1,4 +1,4 @@
-### Prisma ORM plugin issue reproduction
+# [WEB-60508](https://youtrack.jetbrains.com/issue/WEB-60508/Prisma-ORM-plugin-incorrectly-detects-preview-feature-as-deprecated): Prisma ORM plugin incorrectly detects preview feature as deprecated (reproduction)
 
 The [Prisma ORM](https://plugins.jetbrains.com/plugin/20686-prisma-orm) plugin version 231.8109.91 incorrectly flags `"interactiveTransactions"` as a non-preview feature while using the node packages `prisma` and `@prisma/client` at version `^3.15.1`.
 
